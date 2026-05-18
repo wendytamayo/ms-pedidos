@@ -24,8 +24,8 @@ GET /api/pedidos
 ### Buscar pedidos por ID
 GET /api/pedidos/{id}
 
-### Actualizar pedido
-PUT /api/pedidos/{id}
+### Actualizar estado pedido
+PATCH /api/pedidos/{id}/estado
 
 ### Eliminar pedidos
 DELETE /api/pedidos/{id}
